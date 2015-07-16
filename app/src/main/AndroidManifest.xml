@@ -17,15 +17,9 @@
 				<category android:name="android.intent.category.LAUNCHER"/>
 			</intent-filter>
 		</activity>
-		<activity
-			android:name=".DDLFormActivity"
-			android:label="@string/title_activity_ddlform"/>
-		<activity
-			android:name=".DDLListActivity"
-			android:label="@string/title_activity_ddllist"/>
-		<activity
-			android:name=".WebContentActivity"
-			android:label="@string/title_activity_web_content"/>
+		<activity android:name=".DDLFormActivity"/>
+		<activity android:name=".DDLListActivity"/>
+		<activity android:name=".WebContentActivity"/>
 	</application>
 
 </manifest>
