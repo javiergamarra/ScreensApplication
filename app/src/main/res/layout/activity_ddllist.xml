@@ -12,9 +12,8 @@
 	<com.liferay.mobile.screens.ddl.list.DDLListScreenlet
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
-		app:recordSetId="26213"
 		app:labelFields="Text"
-		></com.liferay.mobile.screens.ddl.list.DDLListScreenlet>
+		app:recordSetId="51511"/>
 
 
 </RelativeLayout>

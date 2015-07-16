@@ -30,8 +30,8 @@
 		android:layout_height="match_parent"
 		android:layout_below="@+id/to_dll_list"
 		liferay:layoutId="@layout/ddl_form_default"
-		liferay:recordSetId="26213"
-		liferay:structureId="26211"/>
+		liferay:recordSetId="51511"
+		liferay:structureId="51509"/>
 
 
 </RelativeLayout>

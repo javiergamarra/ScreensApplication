@@ -12,6 +12,7 @@
 	<com.liferay.mobile.screens.webcontentdisplay.WebContentDisplayScreenlet
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
-		app:articleId="27133"/>
+		app:articleId="21571"
+		app:groupId="20525"/>
 
 </RelativeLayout>
