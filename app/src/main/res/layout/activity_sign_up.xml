@@ -1,5 +1,5 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-				xmlns:app="http://schemas.android.com/apk/res-auto"
+				xmlns:liferay="http://schemas.android.com/apk/res-auto"
 				xmlns:tools="http://schemas.android.com/tools"
 				android:layout_width="match_parent"
 				android:layout_height="match_parent"
@@ -7,11 +7,13 @@
 				android:paddingLeft="@dimen/activity_horizontal_margin"
 				android:paddingRight="@dimen/activity_horizontal_margin"
 				android:paddingTop="@dimen/activity_vertical_margin"
-				tools:context=".MainActivity">
+				tools:context="com.liferay.demoproject.SignUpActivity">
 
-	<com.liferay.mobile.screens.auth.login.LoginScreenlet
-		android:id="@+id/login"
+	<com.liferay.mobile.screens.auth.signup.SignUpScreenlet
 		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		app:layoutId="@layout/login_material"/>
+		android:layout_height="match_parent"
+		liferay:anonymousApiPassword="@string/liferay_anonymousApiPassword"
+		liferay:anonymousApiUserName="@string/liferay_anonymousApiUserName"
+		liferay:layoutId="@layout/sign_up_material"/>
+
 </RelativeLayout>

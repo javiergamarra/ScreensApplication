@@ -22,7 +22,6 @@ public class DDLFormActivity extends AppCompatActivity implements DDLFormListene
 
 		DDLFormScreenlet ddlFormScreenlet = (DDLFormScreenlet) findViewById(R.id.ddlform);
 		ddlFormScreenlet.setListener(this);
-
 	}
 
 	@Override
@@ -73,10 +72,6 @@ public class DDLFormActivity extends AppCompatActivity implements DDLFormListene
 	@Override
 	public void onDDLFormDocumentUploadFailed(final DocumentField documentField, final Exception e) {
 
-	}
-
-	public void goToDllList(View view) {
-		startActivity(new Intent(this, DDLListActivity.class));
 	}
 
 	public void goToWebContent(View view) {

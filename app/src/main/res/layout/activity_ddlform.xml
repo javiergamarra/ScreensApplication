@@ -10,28 +10,20 @@
 				tools:context="com.nhpatt.screensapplication.DDLFormActivity">
 
 	<Button
-		android:id="@+id/to_dll_list"
+		android:id="@+id/web_content"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:onClick="goToDllList"
-		android:text="@string/list_of_ddl_records"/>
-
-	<Button
-		android:id="@+id/to_web_content"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:layout_toRightOf="@+id/to_dll_list"
 		android:onClick="goToWebContent"
-		android:text="@string/example_web_content"/>
+		android:text="@string/check_web_content"/>
 
 	<com.liferay.mobile.screens.ddl.form.DDLFormScreenlet
 		android:id="@+id/ddlform"
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
-		android:layout_below="@+id/to_dll_list"
-		liferay:layoutId="@layout/ddl_form_default"
-		liferay:recordSetId="51511"
-		liferay:structureId="51509"/>
-
+		android:layout_below="@+id/web_content"
+		liferay:layoutId="@layout/ddl_form_material"
+		liferay:recordSetId="@integer/recordset_id"
+		liferay:selectFieldLayoutId="@layout/ddlfield_select_material"
+		liferay:structureId="@integer/structure_id"/>
 
 </RelativeLayout>

@@ -1,6 +1,13 @@
 <resources>
 	<string name="app_name">Screens Application</string>
+
 	<string name="example_web_content">Example Web Content</string>
 	<string name="list_of_ddl_records">List of DDL records</string>
-
+	<string name="this_is_private">This is private</string>
+	<string name="forgot_password">Forgot password?</string>
+	<string name="sign_up">Sign Up!</string>
+	<string name="or_use_oauth_login">or use OAuth login</string>
+	<string name="new_record">New Record</string>
+	<string name="list_records">List Records</string>
+	<string name="check_web_content">Check Web Content</string>
 </resources>

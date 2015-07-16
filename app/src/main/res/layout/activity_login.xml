@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				xmlns:tools="http://schemas.android.com/tools"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:paddingBottom="@dimen/activity_vertical_margin"
+				android:paddingLeft="@dimen/activity_horizontal_margin"
+				android:paddingRight="@dimen/activity_horizontal_margin"
+				android:paddingTop="@dimen/activity_vertical_margin"
+				tools:context=".MainActivity">
+
+	<com.liferay.mobile.screens.auth.login.LoginScreenlet
+		android:id="@+id/login"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		app:layoutId="@layout/login_material"/>
+
+	<TextView
+		android:id="@+id/login_oauth"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_below="@+id/login"
+		android:onClick="goToOAuthLogin"
+		android:text="@string/or_use_oauth_login"/>
+
+	<Button
+		android:id="@+id/forgot_password"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:onClick="goToForgotPassword"
+		android:text="@string/forgot_password"/>
+
+	<Button
+		android:id="@+id/sign_up"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_toRightOf="@+id/forgot_password"
+		android:onClick="goToSignUp"
+		android:text="@string/sign_up"/>
+
+</RelativeLayout>

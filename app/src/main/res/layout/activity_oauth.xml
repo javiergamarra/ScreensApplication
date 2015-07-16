@@ -7,14 +7,15 @@
 				android:paddingLeft="@dimen/activity_horizontal_margin"
 				android:paddingRight="@dimen/activity_horizontal_margin"
 				android:paddingTop="@dimen/activity_vertical_margin"
-				tools:context="com.nhpatt.screensapplication.DDLListActivity">
+				tools:context="com.nhpatt.screensapplication.OAuthActivity">
 
-	<com.liferay.mobile.screens.ddl.list.DDLListScreenlet
+	<com.liferay.mobile.screens.auth.login.LoginScreenlet
+		android:id="@+id/login"
 		android:layout_width="match_parent"
-		android:layout_height="match_parent"
-		app:labelFields="Text,TextBox"
-		app:layoutId="@layout/ddl_list_material"
-		app:recordSetId="51511"/>
-
+		android:layout_height="wrap_content"
+		app:basicAuthMethod="email"
+		app:credentialsStore="shared_preferences"
+		app:oauthConsumerKey="@string/oauth_key"
+		app:oauthConsumerSecret="@string/oauth_secret"/>
 
 </RelativeLayout>
