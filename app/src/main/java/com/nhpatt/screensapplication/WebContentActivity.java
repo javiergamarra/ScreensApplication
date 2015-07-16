@@ -1,22 +1,22 @@
-package com.nhpatt.myscreensapplication;
+package com.nhpatt.screensapplication;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class DDLListActivity extends AppCompatActivity {
+public class WebContentActivity extends AppCompatActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_ddllist);
+		setContentView(R.layout.activity_web_content);
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.menu_ddllist, menu);
+		getMenuInflater().inflate(R.menu.menu_web_content, menu);
 		return true;
 	}
 

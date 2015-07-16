@@ -1,4 +1,4 @@
-package com.nhpatt.myscreensapplication;
+package com.nhpatt.screensapplication;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

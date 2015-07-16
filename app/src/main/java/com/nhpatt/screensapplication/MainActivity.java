@@ -1,4 +1,4 @@
-package com.nhpatt.myscreensapplication;
+package com.nhpatt.screensapplication;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -21,8 +21,8 @@ public class MainActivity extends AppCompatActivity implements LoginListener {
 		LoginScreenlet loginScreenlet = (LoginScreenlet) findViewById(R.id.login);
 		loginScreenlet.setListener(this);
 
-		((EditText) findViewById(R.id.liferay_login)).setText("test@liferay.com");
-		((EditText) findViewById(R.id.liferay_password)).setText("test");
+		((EditText) findViewById(R.id.liferay_login)).setText("push1@liferay.com");
+		((EditText) findViewById(R.id.liferay_password)).setText("push2");
 	}
 
 	@Override
